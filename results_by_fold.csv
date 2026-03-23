@@ -1,0 +1,501 @@
+dataset,fold,model,best_params,MAE,RMSE,MdAE,MASE,MdASE
+NASA93,1,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",184.41738277905938,311.39805197740833,56.661208629056375,0.3049808438532986,0.23608836928773488
+NASA93,1,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",176.00395360958115,309.27125202408314,33.6433569245781,0.2910671081243758,0.14018065385240874
+NASA93,1,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",141.45289956202802,283.9360758946119,38.16273477194994,0.23392819062836087,0.15901139488312477
+NASA93,1,DummyMean,{},517.995519203414,543.2481570320325,588.4743243243244,0.8566367669806408,2.4519763513513513
+NASA93,1,DummyMedian,{},267.2421052631579,354.7182543935398,218.0,0.44195249682040655,0.9083333333333333
+NASA93,2,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.9}",334.96215711208987,600.6775664707013,163.4376973526352,0.5714140724893704,0.8192365782086978
+NASA93,2,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",266.60855951076445,500.36548532326555,87.61747811840905,0.45480923595673844,0.4391853539769877
+NASA93,2,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",316.8744901830746,573.072745527096,125.92432305730077,0.5405582065287231,0.6311996143223096
+NASA93,2,DummyMean,{},498.6793029871977,602.987260238919,477.485135135135,0.8507001920539949,2.393409198672356
+NASA93,2,DummyMedian,{},335.1105263157895,598.9595237181154,169.5,0.5716671764568423,0.849624060150376
+NASA93,3,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",783.4071701226433,1935.1840550178256,138.52603032896067,1.6982297868890932,0.5796068214600865
+NASA93,3,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",541.0495874064904,1512.3212879889572,51.68106920975319,1.1728594791568128,0.21623878330440666
+NASA93,3,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",427.5990749946634,1090.4461202638606,64.70116480874319,0.9269272910643378,0.27071617074787946
+NASA93,3,DummyMean,{},942.6254623044098,1871.4965182952476,498.66486486486485,2.0433750149553065,2.086463869727468
+NASA93,3,DummyMedian,{},825.6578947368421,1932.8452402175346,240.0,1.789818735514937,1.00418410041841
+NASA93,4,ElasticNet,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}",8051.401633329715,32622.958796780327,202.05504382316784,18.388744925886193,1.2099104420548972
+NASA93,4,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",587.6268747762473,1085.1159378734983,157.72677014199127,1.3420918746773902,0.9444716774969537
+NASA93,4,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",523.1139802905046,833.9428256378969,258.1188028055637,1.194749683198821,1.5456215736860102
+NASA93,4,DummyMean,{},876.6111111111111,1465.750175688431,437.1,2.002108310519525,2.617365269461078
+NASA93,4,DummyMedian,{},946.0555555555555,1602.128813658738,343.0,2.16071376005051,2.053892215568862
+NASA93,5,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",161.611238320247,242.24952147856746,113.80237945467947,0.27950299139685336,0.5927207263264556
+NASA93,5,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",87.8786431568659,129.03767043742957,34.398063229972806,0.15198413116276097,0.17915657932277504
+NASA93,5,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",98.72072336661637,137.0130833945884,49.34560028899962,0.17073526433324557,0.2570083348385397
+NASA93,5,DummyMean,{},449.6933333333334,538.662446858059,511.288,0.7777344767869538,2.6629583333333335
+NASA93,5,DummyMedian,{},354.3666666666667,545.2702316792615,198.0,0.612869156960455,1.03125
+NASA93,6,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.9}",367.6599337498796,558.8488378370732,164.3950871276025,0.6367106034240595,0.8791181129818315
+NASA93,6,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",219.8294835528556,394.1904735789674,112.47582175125785,0.38069898369333505,0.6014749826270473
+NASA93,6,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",274.874790137404,657.3190828746095,92.3696072513942,0.476026015969181,0.4939551189914128
+NASA93,6,DummyMean,{},440.937055476529,530.3767883435377,421.53378378378363,0.7636113508508751,2.254191357132533
+NASA93,6,DummyMedian,{},372.4736842105263,558.7554506975395,179.0,0.6450470188971045,0.9572192513368984
+NASA93,7,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",832.5818120564676,1947.5302992380534,228.62476411196923,1.823767300988346,1.1907539797498397
+NASA93,7,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",592.7144949131813,1427.7558084181558,51.431409082507,1.2983388527002429,0.26787192230472395
+NASA93,7,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",527.9598615225997,1068.3441041428825,66.41456748216874,1.1564940738988279,0.3459092056362955
+NASA93,7,DummyMean,{},854.5629445234708,1880.710043519384,362.1391891891892,1.8719168882739434,1.8861416103603605
+NASA93,7,DummyMedian,{},840.1842105263158,1971.5600698298208,179.5,1.84042032599756,0.9348958333333334
+NASA93,8,ElasticNet,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}",4188.366623645471,17221.95948552933,120.22178645262335,8.045205547344038,0.500924110219264
+NASA93,8,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",350.29384811405913,889.8817130063462,39.50215502100576,0.6728603924349931,0.16459231258752402
+NASA93,8,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",264.6029921655821,565.8033256684178,87.16308635123667,0.5082614899078534,0.3631795264634861
+NASA93,8,DummyMean,{},723.8970839260313,1097.5174540530104,553.204054054054,1.3904945193739684,2.3050168918918916
+NASA93,8,DummyMedian,{},594.7157894736843,1143.582146728336,238.0,1.1423571999536049,0.9916666666666667
+NASA93,9,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",299.1269236794139,554.1586906107306,158.26264362428188,0.5129707502305055,0.7259754294691829
+NASA93,9,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",170.8340296347955,410.08274107227703,58.52657623304404,0.2929621288138578,0.2684705331791011
+NASA93,9,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",200.09599944705244,385.1946795415601,84.31331197497252,0.34314328410131434,0.38675831181180054
+NASA93,9,DummyMean,{},504.49214814814815,625.5164941534907,509.8613333333333,0.8651501928937363,2.338813455657492
+NASA93,9,DummyMedian,{},334.65555555555557,576.4129133413535,223.0,0.5738985621572595,1.0229357798165137
+NASA93,10,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",309.943810633709,545.2303539831069,69.14411658115831,0.5821138645226346,0.36012560719353287
+NASA93,10,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",318.8703958939771,631.7441281716747,61.102181677279106,0.5988791260460737,0.318240529569162
+NASA93,10,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",311.03080051356176,636.5926746262586,84.55157239749443,0.5841553696534012,0.4403727729036168
+NASA93,10,DummyMean,{},692.4588888888889,1009.8282257858401,576.096,1.3005257921105307,3.0005
+NASA93,10,DummyMedian,{},544.3833333333333,1075.3213310448184,220.4,1.0224210811000316,1.1479166666666667
+NASA93,11,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",401.7089566287139,740.3705492985384,140.42666062296405,0.7167407151508717,0.5572486532657304
+NASA93,11,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",308.13994095166,624.8410818756902,38.979132830669386,0.5497921766488526,0.15467909853440232
+NASA93,11,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",285.8689426751724,562.3711314092548,47.853763574683484,0.5100556187045716,0.18989588720112494
+NASA93,11,DummyMean,{},653.4362019914652,770.7667464284185,597.0067567567568,1.1658797320611078,2.3690744315744316
+NASA93,11,DummyMedian,{},445.1473684210526,756.359551090826,262.0,0.7942447832561668,1.0396825396825398
+NASA93,12,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",303.92766763736927,542.3170109548902,172.65008290138357,0.5179801751078499,0.8719701156635534
+NASA93,12,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",199.9371051713173,420.2795148637798,63.957314462890565,0.3407503421858982,0.3230167397115685
+NASA93,12,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",176.29070473475593,382.25401158823365,82.81322301126033,0.3004500735923376,0.41824860106697137
+NASA93,12,DummyMean,{},497.87119487908967,606.2505880871496,522.1364864864864,0.8485157363571229,2.637052962052962
+NASA93,12,DummyMedian,{},332.5473684210526,572.7715922094122,186.0,0.5667563781390076,0.9393939393939394
+NASA93,13,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",659.3991684806822,1871.139471052715,125.23990934036473,1.3358539424317635,0.5218329555848531
+NASA93,13,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",528.1143380310244,1513.8914844534497,77.4599713968608,1.0698885504192943,0.3227498808202533
+NASA93,13,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",502.46048793149214,1376.6166573135565,54.9530215942288,1.0179173038176728,0.22897092330928667
+NASA93,13,DummyMean,{},799.6058321479373,1814.3521794809271,407.7567567567568,1.619893767423739,1.6989864864864865
+NASA93,13,DummyMedian,{},699.8263157894737,1869.7278142750308,186.0,1.4177539002951483,0.775
+NASA93,14,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.1}",482.30746850851784,941.6424583155654,144.07640813488808,0.9216277605891302,0.7543267441617177
+NASA93,14,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",286.127301880937,606.4993342605758,63.521327699034934,0.546752604290806,0.33257239633002583
+NASA93,14,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",291.98713036769163,573.8053073339795,86.30834989192947,0.5579499855430282,0.4518761774446569
+NASA93,14,DummyMean,{},624.6524444444444,998.6016458946016,467.25733333333335,1.1936307669050583,2.4463734729493893
+NASA93,14,DummyMedian,{},583.2333333333332,1093.2503235764443,201.0,1.114484153776774,1.0523560209424083
+NASA93,15,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.1}",439.9734872008828,807.0697525733261,117.24514811727562,0.8691669859967763,0.6170797269330296
+NASA93,15,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",433.74714494964223,872.8451263256381,69.54172510840692,0.856866855907746,0.36600907951793116
+NASA93,15,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",385.7150245393623,770.6567886387257,76.71263687325111,0.761979471684578,0.40375072038553217
+NASA93,15,DummyMean,{},659.048148148148,1088.0737759232375,474.23333333333335,1.3019486610363493,2.495964912280702
+NASA93,15,DummyMedian,{},654.4000000000001,1194.2085133398325,220.2,1.2927662511095719,1.1589473684210525
+NASA93,16,ElasticNet,"{""regressor__model__alpha"": 0.001, ""regressor__model__l1_ratio"": 0.9}",527.0629241497709,1274.32852847686,149.93640312094354,0.9152781525566916,0.759171661371866
+NASA93,16,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",237.66332046510698,471.88708362097975,80.8325752173366,0.41271740985518274,0.4092788618599321
+NASA93,16,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",245.2143806087425,460.5574730500528,100.9956947698108,0.4258303040874229,0.5113706064294218
+NASA93,16,DummyMean,{},510.36294452347084,616.8683620106092,517.4094594594595,0.8862775801397427,2.6197947314403014
+NASA93,16,DummyMedian,{},375.0473684210526,628.4681840961025,186.5,0.6512935111939786,0.9443037974683545
+NASA93,17,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",128.18316489472565,253.3699556817659,32.00100453162008,0.21582014147986175,0.13333751888175036
+NASA93,17,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",76.41260814411457,169.88870015433687,28.270044311448075,0.1286548035699703,0.11779185129770031
+NASA93,17,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",99.84274934808182,196.90454921935526,36.143107338832564,0.1681037935655467,0.15059628057846902
+NASA93,17,DummyMean,{},533.4197724039828,578.4614908647251,581.7783783783783,0.898111158691793,2.424076576576576
+NASA93,17,DummyMedian,{},309.1105263157895,463.41259381383145,240.0,0.5204449240832657,1.0
+NASA93,18,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",509.36032616330493,829.6812009085443,187.11396746574965,0.9631052297870679,0.9127510608085349
+NASA93,18,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",332.1228526453341,648.0871808381879,63.411618557596285,0.6279822747953251,0.3093249685736404
+NASA93,18,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",331.7958712792616,584.6680251939221,93.3637986226405,0.6273640141112247,0.4554331640128805
+NASA93,18,DummyMean,{},624.3490753911807,787.9774972792833,542.418918918919,1.180527475022035,2.6459459459459462
+NASA93,18,DummyMedian,{},558.3526315789474,866.0632458368578,229.0,1.0557405277117098,1.1170731707317074
+NASA93,19,ElasticNet,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}",7316.515535041825,29491.52594114992,121.38573344968859,15.988749082267255,0.6322173617171281
+NASA93,19,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",680.0635899074766,1678.983476546292,109.14377043966998,1.486139959238723,0.5684571377066144
+NASA93,19,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",569.5915727631494,1227.9280037386263,75.10466017957827,1.244725948119224,0.3911701051019702
+NASA93,19,DummyMean,{},908.3514074074074,2065.467348631996,341.29066666666665,1.985016318492424,1.7775555555555556
+NASA93,19,DummyMedian,{},856.8888888888889,2148.228889108421,192.0,1.872555504079704,1.0
+NASA93,20,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",595.1053500700904,1118.2098457012507,156.08503633447958,1.1529712655576883,0.8171991431124586
+NASA93,20,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",414.3285581793411,698.8318090388166,149.63348429905793,0.8027300074255147,0.7834213837647012
+NASA93,20,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",351.8825878464948,600.1728691250005,120.14592317361115,0.6817456986217713,0.6290362469822574
+NASA93,20,DummyMean,{},662.1237777777777,1024.8605970188225,471.95466666666664,1.282814362079536,2.4709668411867365
+NASA93,20,DummyMedian,{},613.1166666666667,1130.186954298565,212.0,1.1878668189051231,1.1099476439790577
+NASA93,21,ElasticNet,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}",7182.997989059467,30322.83187928959,111.88439579535904,13.75127674213278,0.5062642343681405
+NASA93,21,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",453.24818232252744,963.7738524588101,85.67605392778259,0.8677074944861342,0.38767445216191215
+NASA93,21,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",192.69270726726384,353.75492597613635,48.21294767516309,0.3688948191074022,0.21815813427675607
+NASA93,21,DummyMean,{},671.2926031294452,1047.9089027277394,527.3621621621622,1.28513614714076,2.386254127430598
+NASA93,21,DummyMedian,{},584.3315789473684,1121.7651637627098,204.0,1.1186562022586346,0.9230769230769231
+NASA93,22,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",743.6585283122052,1885.8136654588973,165.86434843131136,1.560845536917582,0.8661323677875267
+NASA93,22,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",477.55814301096996,1527.158161932758,53.55658763023462,1.0023343614831601,0.27966886490984133
+NASA93,22,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",297.49607267202083,790.1269601696888,55.19482633674606,0.6244067668187747,0.288223636223217
+NASA93,22,DummyMean,{},807.9308677098151,1821.8030973689288,508.4837837837838,1.6957450778718075,2.6552678004375134
+NASA93,22,DummyMedian,{},762.5684210526315,1899.2939449894754,208.3,1.6005350188017906,1.087728459530026
+NASA93,23,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.1}",420.15523180557864,1383.251860142568,60.88058659293756,0.7218525149543976,0.22853073045396985
+NASA93,23,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",173.92233928836325,380.9795855342031,72.07115218207474,0.2988092698085263,0.27053735804082113
+NASA93,23,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",190.4152865604203,426.51179817698375,21.82210253985987,0.3271451670343729,0.08191479932379832
+NASA93,23,DummyMean,{},613.7539118065434,701.669956486606,614.3216216216216,1.0544669476010806,2.3060120931742554
+NASA93,23,DummyMedian,{},368.15263157894736,635.4121948534046,264.4,0.6325088511936373,0.9924924924924925
+NASA93,24,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",641.3003146407594,1159.91289931785,196.9207042962601,1.2826108901686404,1.087959692244531
+NASA93,24,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",429.81765127601386,690.0511818312594,171.29014252946934,0.8596421796894653,0.9463543786158527
+NASA93,24,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",390.3200349370211,599.1155120225968,213.80785639585577,0.7806463150445626,1.1812588751152253
+NASA93,24,DummyMean,{},655.8303703703704,1073.0214886046817,454.6733333333333,1.3116712341106136,2.5120073664825044
+NASA93,24,DummyMedian,{},680.4222222222221,1187.5731893235043,222.2,1.3608553312870946,1.2276243093922652
+NASA93,25,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",295.9793286975746,558.0841925310405,162.32044617490737,0.5028906827856222,0.7956884616417028
+NASA93,25,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",187.08620179913817,439.5341414642698,19.050394194264747,0.3178732385688672,0.09338428526600366
+NASA93,25,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",203.7747679885111,468.50433682278594,67.04377965861674,0.3462283418884713,0.32864597871870954
+NASA93,25,DummyMean,{},477.6760000000001,602.8294381894865,459.5973333333334,0.8116067120206066,2.2529281045751635
+NASA93,25,DummyMedian,{},310.5888888888889,576.9593111014559,172.6,0.5277134017644692,0.846078431372549
+NASA93,26,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.9}",493.6836915139976,818.5140715974005,161.78020100980615,0.9048141008236571,0.8170717222717482
+NASA93,26,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",235.5923222355084,451.3584844223547,112.27038210291772,0.43178913719177375,0.5670221318329178
+NASA93,26,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",334.17994916005483,581.9615204490324,44.21564652769433,0.6124786688522346,0.22331134609946632
+NASA93,26,DummyMean,{},584.6401137980084,725.0805287895872,559.0945945945946,1.0715173054416907,2.8237100737100738
+NASA93,26,DummyMedian,{},492.7631578947368,809.284553105233,186.0,0.903126964275891,0.9393939393939394
+NASA93,27,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",643.4984013173387,1874.064348496953,123.37051771022891,1.2537982579505123,0.6597353888247536
+NASA93,27,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",402.9891216162804,858.8784063561727,51.0103808986361,0.7851877450218078,0.27278278555420377
+NASA93,27,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",397.71909780582706,813.4774937208173,85.84748413079188,0.7749195817142107,0.45907745524487636
+NASA93,27,DummyMean,{},688.3972261735419,1123.4865982861925,447.66081081081086,1.3412795450422754,2.393908079202197
+NASA93,27,DummyMedian,{},622.5052631578948,1223.3885831015252,185.0,1.2128950327065307,0.9893048128342246
+NASA93,28,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",881.872394845367,2068.817563520022,160.84560174755882,2.008629270080032,0.8421235693589467
+NASA93,28,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",682.4782286574173,1747.010170747092,67.43416774226759,1.5544717742457896,0.35305846985480416
+NASA93,28,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",650.4861974267923,1691.641666002984,47.976465946165206,1.4816039413090123,0.25118568558201676
+NASA93,28,DummyMean,{},962.1357752489333,1996.7469690360945,480.4256756756756,2.1914441264430553,2.5153176736946365
+NASA93,28,DummyMedian,{},907.8526315789474,2081.3805782650484,222.0,2.0678041169759123,1.162303664921466
+NASA93,29,ElasticNet,"{""regressor__model__alpha"": 0.001, ""regressor__model__l1_ratio"": 0.5}",1680.657171302511,3711.107155350547,103.74328305773051,3.001237832422321,0.5135806091966857
+NASA93,29,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",347.3659673033283,602.183699461662,104.14486903780497,0.6203096625344262,0.5155686586029948
+NASA93,29,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",380.62081917376617,664.5076774528496,75.0394105639717,0.679694599123135,0.3714822305147114
+NASA93,29,DummyMean,{},503.18888888888887,624.3014737911307,540.02,0.898570842391067,2.6733663366336633
+NASA93,29,DummyMedian,{},429.6222222222222,674.9972938217358,199.0,0.7671989796606752,0.9851485148514851
+NASA93,30,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",90.15527073734754,134.15486637311588,50.637425524488236,0.14750696027009597,0.210989273018701
+NASA93,30,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",50.804538807271975,78.44054558603011,28.402927249786124,0.08312351597520475,0.11834553020744218
+NASA93,30,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",54.136948027718766,78.80172816079671,27.271551389981806,0.08857581566288697,0.11363146412492418
+NASA93,30,DummyMean,{},488.10622222222224,538.1727555249646,601.284,0.7986118231365235,2.50535
+NASA93,30,DummyMedian,{},221.37777777777777,237.01043577586762,245.0,0.3622058123088893,1.0208333333333333
+NASA93,31,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",604.491322230369,914.6164112764634,210.5331414872799,1.1838247683696819,1.1318986101466662
+NASA93,31,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",352.13624179025055,607.5288749355905,132.08354935352082,0.6896171864532528,0.7101266094275313
+NASA93,31,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",323.4845274264001,540.4249310738501,180.42236467241486,0.6335061921795363,0.970012713292553
+NASA93,31,DummyMean,{},655.5615220483642,808.2544750730588,550.7337837837838,1.2838397152295662,2.9609343214181925
+NASA93,31,DummyMedian,{},629.078947368421,931.0442425464793,227.5,1.2319767245076434,1.2231182795698925
+NASA93,32,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.1}",1274.7808384127509,4796.6576050944805,125.90169021008855,2.3105564669361813,0.5995318581432788
+NASA93,32,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",399.7269076850999,786.402768955111,97.50914684282608,0.7245100990929448,0.4643292706801242
+NASA93,32,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",440.7836466868602,868.0841269643132,59.09700262656028,0.798925960198878,0.28141429822171565
+NASA93,32,DummyMean,{},561.642745376956,990.192126709251,447.8013513513514,1.0179846122054297,2.1323873873873875
+NASA93,32,DummyMedian,{},469.36842105263156,1031.7415751508402,205.0,0.8507362269338097,0.9761904761904762
+NASA93,33,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.5}",383.67369008518097,1104.3739325951747,101.14709174430303,0.7422609656423679,0.47937010305356886
+NASA93,33,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",407.8305733445876,1414.7704506825887,35.115100364891646,0.7889952399968493,0.16642227661086087
+NASA93,33,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",268.01038834058033,873.3313816672069,39.134473978691545,0.5184969800970692,0.1854714406573059
+NASA93,33,DummyMean,{},773.2420341394026,1793.3982595302282,444.4932432432432,1.4959258186511495,2.1066030485461766
+NASA93,33,DummyMedian,{},604.6736842105263,1843.362113667649,185.0,1.1698109209442737,0.8767772511848341
+NASA93,34,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.9}",395.38280248678166,649.7584195522755,172.86283196165041,0.6959935546271002,0.8473668233414235
+NASA93,34,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",231.99506465421186,499.73251585043425,27.617684650567156,0.4083816207712448,0.1353808071106233
+NASA93,34,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",224.387708647747,510.95133362203825,45.54561087666896,0.39499036876192073,0.22326279841504393
+NASA93,34,DummyMean,{},531.2111111111111,639.0344132969506,564.66,0.9350925410874291,2.767941176470588
+NASA93,34,DummyMedian,{},395.8888888888889,643.9728324152261,192.0,0.696884420066203,0.9411764705882353
+NASA93,35,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",261.48727472468545,490.9815448626884,118.75547174885742,0.4970132290984877,0.618518082025299
+NASA93,35,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",244.27103166079516,550.9919995586421,37.035610192625285,0.4642900284489046,0.19289380308659002
+NASA93,35,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",225.10136970514748,535.2629009642792,44.2498214818431,0.4278539318957003,0.2304678202179328
+NASA93,35,DummyMean,{},670.4137037037037,1045.5377506153366,476.4946666666666,1.2742665204663541,2.481743055555555
+NASA93,35,DummyMedian,{},570.75,1123.9020778322085,212.0,1.0848340547609152,1.1041666666666667
+NASA93,36,ElasticNet,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}",5227.034315900216,20881.071314276523,130.15330084386903,13.296272696156391,0.7523312187506881
+NASA93,36,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",817.6278552508999,1920.9828826602504,95.11226969543753,2.0798415067449474,0.5497819057539742
+NASA93,36,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",850.0963256678998,1954.2396145337743,107.96090193268947,2.1624332041780963,0.6240514562583206
+NASA93,36,DummyMean,{},1052.2394736842107,2203.3003931602243,432.45000000000005,2.6766349976326476,2.49971098265896
+NASA93,36,DummyMedian,{},1090.3368421052633,2296.692024813537,216.2,2.773545208838141,1.2497109826589594
+NASA93,37,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.9}",649.256780115712,979.1501541978768,230.40389524781446,1.2793952458681672,1.255607058571196
+NASA93,37,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",407.22058831169716,645.2810103347929,145.59846682231273,0.8024499715086078,0.793452135271459
+NASA93,37,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",503.1135931368275,753.276423633013,264.5026302328936,0.9914122715456127,1.441431227427213
+NASA93,37,DummyMean,{},640.5549786628734,818.0247073198259,488.7148648648648,1.2622478802183756,2.6632962662935413
+NASA93,37,DummyMedian,{},644.9684210526316,966.2971500036949,217.0,1.2709448047393077,1.1825613079019073
+NASA93,38,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.1}",541.9343843296754,1798.6075413279148,82.70262547990552,0.9259493570904838,0.32343615752798405
+NASA93,38,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",169.81064800245656,411.3235200719617,24.892787488760177,0.2901385571603472,0.09735153495799835
+NASA93,38,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",183.3562903126211,454.88220042227204,26.854502467203673,0.31328264831077046,0.10502347464686615
+NASA93,38,DummyMean,{},567.0625177809388,660.2840830615057,617.7067567567567,0.968883298332948,2.4157479732372185
+NASA93,38,DummyMedian,{},348.5263157894737,548.1914187388812,250.0,0.5954922355287554,0.9777082518576458
+NASA93,39,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.1}",173.31763999469817,316.4494274018751,70.34936250549285,0.29264566630425665,0.32270349773161855
+NASA93,39,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",158.38893858777038,258.6061972480174,80.56636573801444,0.26743865465546357,0.3695704850367635
+NASA93,39,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",175.17840554633491,262.7369419927608,114.64490202940871,0.2957875563894863,0.525894046006462
+NASA93,39,DummyMean,{},454.6629629629629,501.4828486118462,531.2733333333333,0.7676953467877478,2.437033639143731
+NASA93,39,DummyMedian,{},296.6666666666667,391.329125474254,227.0,0.5009196659935207,1.0412844036697249
+NASA93,40,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.1}",256.1265159110788,473.6840741030328,122.29182360127126,0.4356802029750177,0.5936496291323847
+NASA93,40,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",160.89060799097717,354.2115765581696,57.912791233536566,0.2736805773386577,0.2811300545317309
+NASA93,40,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",150.42329922045292,338.99584188409295,61.58497566378278,0.25587531733454527,0.29895619254263484
+NASA93,40,DummyMean,{},507.0006666666666,599.0799442896365,438.5093333333333,0.8624259482703873,2.1286860841423945
+NASA93,40,DummyMedian,{},313.4166666666667,595.2142420077739,121.2,0.5331327623903399,0.5883495145631068
+NASA93,41,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",475.2989880340083,797.7020518852173,166.17351259057793,0.8840504789347953,0.7256485265964102
+NASA93,41,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",321.0563272770616,558.4884807546066,84.26892771910775,0.5971609598167802,0.36798658392623473
+NASA93,41,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",322.81682700145655,541.8681082465077,87.28695294067779,0.6004354684180999,0.3811657333654052
+NASA93,41,DummyMean,{},637.4354196301565,782.5314213256629,562.8324324324324,1.1856223181643322,2.4577835477398793
+NASA93,41,DummyMedian,{},526.6368421052632,830.7224012236198,229.0,0.9795382784500136,1.0
+NASA93,42,ElasticNet,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}",2184.692601290519,8408.283380136982,91.44989935854412,4.438700915801309,0.38104124732726713
+NASA93,42,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",373.95099701688804,855.0595266969244,40.61789745666616,0.7597666746997633,0.16924123940277566
+NASA93,42,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",383.9808643780958,936.6367486326783,34.05657008360488,0.7801446360730295,0.14190237534835368
+NASA93,42,DummyMean,{},834.8082503556188,1334.7030048590905,529.5324324324324,1.6961032152455315,2.206385135135135
+NASA93,42,DummyMedian,{},705.3736842105263,1401.4714614891097,240.0,1.4331273956976502,1.0
+NASA93,43,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",681.085777138807,1853.6801855505291,180.0256954312687,1.3929558792081131,0.940081960476599
+NASA93,43,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",470.45055434006156,1459.9636487972025,59.02959932365212,0.9621649541672186,0.3082485604368257
+NASA93,43,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",404.37643380893513,1157.6254677265795,97.68214808053642,0.8270302358297067,0.5100895461124617
+NASA93,43,DummyMean,{},771.2110241820768,1802.3171700183063,458.5121621621621,1.5772799349260185,2.39431938465881
+NASA93,43,DummyMedian,{},713.8684210526316,1876.3834064217092,203.5,1.4600029063352724,1.0626631853785902
+NASA93,44,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",248.04868511864137,466.22461754595446,105.23798338281046,0.4410203916226864,0.5158724675627964
+NASA93,44,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",258.9367700852775,483.98772678100516,155.08782254165564,0.46037896025896125,0.7602344242238022
+NASA93,44,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",267.7859515741759,480.9205380486486,97.1223794417555,0.47611244211115317,0.476090095302723
+NASA93,44,DummyMean,{},509.4581481481482,638.6500518486022,493.81466666666665,0.9057956985508715,2.420660130718954
+NASA93,44,DummyMedian,{},419.39444444444445,688.5586172900928,191.0,0.7456661261671315,0.9362745098039216
+NASA93,45,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",278.8755576715524,482.2235976837376,142.97934551110853,0.4743287113448922,0.7485829607911442
+NASA93,45,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",201.95913073516067,381.2635357491072,98.97240688290188,0.34350451873866483,0.5181801407481774
+NASA93,45,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",231.2702412048567,405.99568061741,108.55131055718456,0.39335865932115777,0.568331468885783
+NASA93,45,DummyMean,{},430.06148148148145,540.0196106589984,382.99333333333334,0.7314750350062502,2.0052006980802792
+NASA93,45,DummyMedian,{},314.0,515.9575262450281,194.0,0.5340705245230216,1.0157068062827226
+NASA93,46,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",396.40759214976646,678.3806679826375,170.0295543310412,0.7001193785760622,0.9092489536419316
+NASA93,46,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",197.14237707234852,412.2857044545751,60.53566666298718,0.34818505311259007,0.32372014258281917
+NASA93,46,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",194.11307643346015,388.85006464045057,108.42087073121252,0.342834822383363,0.579790752573329
+NASA93,46,DummyMean,{},484.79786628733996,638.6530887146862,451.60540540540535,0.85623077761805,2.415002167943344
+NASA93,46,DummyMedian,{},416.2368421052632,709.3375430639492,167.0,0.7351410139619624,0.893048128342246
+NASA93,47,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.5}",224.44111270869408,349.09981266779,122.49591546334881,0.3884817178901768,0.5349166614120036
+NASA93,47,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",176.55874450785254,436.45593675045546,38.94437645433709,0.3056028530029937,0.17006277927658117
+NASA93,47,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",214.7013575427429,493.32277275878647,48.24207225434316,0.37162332339625276,0.21066407097966444
+NASA93,47,DummyMean,{},520.6922475106687,633.3787723036316,577.522972972973,0.9012583138793454,2.521934379794642
+NASA93,47,DummyMedian,{},370.4526315789474,595.2788307304313,263.8,0.6412108413466777,1.1519650655021834
+NASA93,48,ElasticNet,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}",580.5041909876927,912.2067733016371,368.0647567246537,1.3676142339189972,2.0058024889626904
+NASA93,48,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",714.2693476475011,1544.1038917098606,206.5303372471389,1.6827525827724286,1.1255059250525281
+NASA93,48,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",491.43391077491736,887.6607593374364,158.6054229135475,1.1577728840557233,0.8643347297741009
+NASA93,48,DummyMean,{},955.768278805121,1915.7984556750498,457.6972972972974,2.251701749470843,2.4942632005302308
+NASA93,48,DummyMedian,{},968.2578947368422,2017.3725685966676,218.6,2.281126130534038,1.1912806539509537
+NASA93,49,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",175.53772551993268,239.4042987758522,133.12788925280654,0.2878970247520725,0.5546995385533606
+NASA93,49,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",141.0808505059309,325.6609654940585,70.28894859479915,0.23138477492427867,0.29287061914499646
+NASA93,49,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",220.7520660329514,527.8668099465812,66.9491723277194,0.3620524467348364,0.27895488469883084
+NASA93,49,DummyMean,{},456.8468148148148,501.5708707396379,526.0173333333333,0.74926821777528,2.191738888888889
+NASA93,49,DummyMedian,{},227.5,272.1148654520734,234.0,0.3731196410179032,0.975
+NASA93,50,ElasticNet,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}",6683.215213661543,27434.448687350818,84.49290703365837,13.597773887054846,0.3520537793069099
+NASA93,50,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",361.7093809603041,826.5301218048816,50.23507298979454,0.7359395467425209,0.2093128041241439
+NASA93,50,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",188.35285754579755,350.7914122217492,43.910304378173095,0.3832256610041456,0.18295960157572122
+NASA93,50,DummyMean,{},848.7099999999999,1358.2127607499497,515.3080000000001,1.7267986001844717,2.1471166666666672
+NASA93,50,DummyMedian,{},720.1277777777777,1427.037392058573,227.5,1.4651832058307561,0.9479166666666666
+China,1,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2313.0784714204383,5412.668169668252,1180.7865351622129,0.7017872522686577,0.8884774530942159
+China,1,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",1963.644362392238,4011.611122957881,1058.970809832152,0.5957690577915569,0.7968177651107239
+China,1,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",1839.0136810048155,3957.669738706647,817.0611647838305,0.557956149790412,0.6147939539381719
+China,1,DummyMean,{},3222.880125313283,5577.186874130643,2960.645363408521,0.9778207767183713,2.2277241259657794
+China,1,DummyMedian,{},2368.37,5619.575949304361,1273.0,0.7185626839693194,0.9578630549285176
+China,2,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2797.4862474335478,5360.85322782474,1268.4861612335121,0.8848102771488022,0.9473384325866409
+China,2,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",1914.6878645711904,3816.3737119215634,848.792179439655,0.6055920745486797,0.633900059327599
+China,2,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2227.733486774638,4420.705766626843,930.1108793313695,0.7046045304619706,0.6946309778426957
+China,2,DummyMean,{},3594.7701253132823,5243.96279346289,2843.0,1.1369813001878697,2.123226288274832
+China,2,DummyMedian,{},2909.24,5496.103406960244,1471.5,0.9201566059722078,1.098954443614638
+China,3,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3969.330857082617,8680.37826427112,1346.6210715155812,1.3769421675790832,1.048770304918677
+China,3,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 5, ""regressor__model__n_estimators"": 600}",2914.853583457219,6131.449484757033,894.3919120680225,1.01114897092029,0.6965669097102979
+China,3,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2653.8243655147753,5457.561332353971,848.2588226544776,0.9205991653998428,0.6606377123477241
+China,3,DummyMean,{},4436.160726817042,8293.051435450821,2786.1102756892233,1.5388832493046878,2.169867815957339
+China,3,DummyMedian,{},4016.83,8723.967494781258,1388.5,1.3934193964022004,1.081386292834891
+China,4,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.1}",89402.08040923957,870955.074782991,979.2194296697483,28.534587367601134,0.715280810569575
+China,4,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2601.6637550401656,6262.409229026115,820.9748076219863,0.8303766688592911,0.5996894138948038
+China,4,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2633.6338552806847,6446.16292707467,874.6115863634183,0.8405806105828862,0.6388689454809483
+China,4,DummyMean,{},3666.02962406015,7169.730291338396,2632.2030075187968,1.1700918157733067,1.9227195087792526
+China,4,DummyMedian,{},3017.56,7478.035897212583,1090.5,0.963118856550453,0.7965668371073776
+China,5,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3214.5478393075796,6030.873465038191,1264.3629808630214,1.0458524699116771,1.0171866298173946
+China,5,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2351.345978426083,4625.699642372103,586.1102192201946,0.7650099242833222,0.4715287362994325
+China,5,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2244.872572511001,4341.940784130466,833.0162649184094,0.7303688238478148,0.6701659412054782
+China,5,DummyMean,{},3582.371313131314,5617.331558104863,2822.84,1.1655237605006854,2.2709895414320194
+China,5,DummyMedian,{},3260.3939393939395,6098.836695666153,1368.0,1.0607684890247933,1.1005631536604987
+China,6,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2708.3882218425856,5365.3279862420695,1256.3175513644562,0.8732994193733719,0.9333711377150492
+China,6,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2462.0788513863445,6005.426166038055,1064.9030924024974,0.7938788147233794,0.7911612870746637
+China,6,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2498.493220532422,6276.99206400089,1055.3265169477327,0.8056203542765541,0.7840464464693407
+China,6,DummyMean,{},3884.0127067669177,7199.965460277916,3190.5563909774437,1.2523706957161214,2.3703985074126623
+China,6,DummyMedian,{},3149.05,7415.8714140686125,1375.0,1.015387496666478,1.0215453194650816
+China,7,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3364.2094371362855,7596.5296987387865,1126.4166581992874,1.1091542649862363,0.8759071992218409
+China,7,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2486.164785259342,5103.166219099053,753.073502155126,0.8196696212160588,0.5855937030755256
+China,7,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2557.0806494534463,4776.454501149073,982.7044937489892,0.8430500422914573,0.7641559049370056
+China,7,DummyMean,{},3900.9664160401003,7382.3793744652685,2574.3182957393483,1.2861189586347594,2.0018027183043143
+China,7,DummyMedian,{},3419.18,7797.710976947016,1214.5,1.127277641484723,0.9444012441679627
+China,8,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3059.165934612544,5970.963917817514,1225.5756563589566,0.9847195977165911,0.9750005221630522
+China,8,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2005.1031150139856,3850.1440619255854,705.1887196910079,0.6454257058948748,0.5610093235409769
+China,8,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",1949.8134018509197,3694.093034888612,757.1222699100356,0.6276284156309534,0.6023247970644674
+China,8,DummyMean,{},3565.3509774436093,5636.78902407529,2546.9586466165415,1.1476562747065868,2.026220084818251
+China,8,DummyMedian,{},3123.38,6053.140092547008,1403.5,1.0053895613562365,1.1165473349244233
+China,9,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2963.998612494894,6984.270692657606,1111.4480456243764,0.9498873890971543,0.812462021655246
+China,9,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2413.487715966688,5860.658340351162,1068.8847704784907,0.7734624218355975,0.7813485164316453
+China,9,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2473.504493066705,5980.262680104173,1081.8421893099185,0.7926962971354158,0.7908203138230399
+China,9,DummyMean,{},3799.2867669172933,6821.338440967575,2789.5,1.2175763417178904,2.0391081871345027
+China,9,DummyMedian,{},3070.42,7102.078280334566,1172.5,0.9839927808794507,0.8570906432748538
+China,10,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2734.797510367298,5208.26060681011,1248.3304225783077,0.858434194379052,0.966574078651419
+China,10,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 5, ""regressor__model__n_estimators"": 300}",2233.641390098585,3907.160058713993,959.2796368678614,0.7011247231183353,0.7427639464714374
+China,10,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2336.959387570907,4081.553117789921,985.9249598885826,0.7335555343900254,0.763395245751903
+China,10,DummyMean,{},3315.5885101010103,4995.867928562572,2855.8725,1.0407405084915191,2.2112833914053427
+China,10,DummyMedian,{},2803.5858585858587,5291.023569607436,1360.0,0.8800263854139689,1.0530391018195897
+China,11,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3146.214654322894,6199.350784046899,1243.3944453006266,1.049511542402033,1.01667575249438
+China,11,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",3051.4694196878054,6936.418970250908,924.3788257801766,1.0179065096047668,0.7558289662961378
+China,11,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",3272.4141348335083,7578.826482153347,1028.6194927395068,1.0916090551254725,0.8410625451672173
+China,11,DummyMean,{},4014.601929824562,7616.625567045545,2955.754385964912,1.3391874129475523,2.4168065298159545
+China,11,DummyMedian,{},3560.19,8016.596359428358,1401.0,1.1876050774254714,1.1455437448896157
+China,12,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3328.273114437128,7418.350841924209,1186.7084470849954,1.098372741323239,0.8339483113738548
+China,12,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2241.347205374219,5291.643546270755,604.1789186896314,0.739673274871976,0.4245811094094388
+China,12,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2449.645032772943,5553.832452582762,672.4006289196639,0.8084142248556746,0.47252328103982
+China,12,DummyMean,{},4149.860526315789,7157.292357127485,2886.4824561403507,1.3695071064411217,2.0284486691077657
+China,12,DummyMedian,{},3444.49,7454.823566658033,1349.0,1.1367258015423756,0.9479971890372453
+China,13,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2773.1903713627257,6310.554350171179,1213.6971775692205,0.8713836165935942,0.9647831300232277
+China,13,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2283.9667005500173,4504.431119853916,977.9342774531706,0.7176612122472635,0.7773722396289114
+China,13,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2270.863171060766,4251.687752681836,953.1657443334191,0.7135438602492203,0.7576834215686956
+China,13,DummyMean,{},3292.47082706767,6102.6727150535025,2299.3558897243106,1.0345503743435112,1.8277868757744917
+China,13,DummyMedian,{},2823.14,6419.186055879671,1324.5,0.8870786400939343,1.0528616852146264
+China,14,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",1995.1429842532434,4065.099773017146,1124.2751966744502,0.5908345040620745,0.8315644945816939
+China,14,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",1616.5858329747537,3623.4974436419184,707.4364083504398,0.4787299438876602,0.5232517813242898
+China,14,GradientBoosting,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",1646.1258731088546,3698.8149494009713,570.6884083913124,0.4874778256687436,0.42210681094031977
+China,14,DummyMean,{},3100.9957894736835,4248.260632811587,2966.771929824561,0.918317796685647,2.19435793626077
+China,14,DummyMedian,{},2045.1,4110.889105777484,1200.5,0.605628595942263,0.8879437869822485
+China,15,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3645.2510190975377,7203.66266357398,1289.167287462358,1.2324488777195814,1.0191045750690577
+China,15,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2273.3762324255686,4102.949281556953,817.6073027968409,0.7686219609043315,0.6463298836338663
+China,15,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2192.293445445202,3850.6007459712764,893.253655300372,0.7412081040004335,0.7061293717789502
+China,15,DummyMean,{},3990.903181818181,6798.534749406941,2777.795,1.3493128790721876,2.195885375494071
+China,15,DummyMedian,{},3725.191919191919,7296.353594623672,1372.0,1.2594766659539307,1.084584980237154
+China,16,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2518.1253513825113,4684.072610893981,1230.214430410521,0.778591632674561,0.9348133969684809
+China,16,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",1923.5909793647309,3435.7871618513386,851.1653297967857,0.594764609474018,0.6467821654990773
+China,16,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",1900.5557483351274,3437.8106598627014,987.8779955892682,0.5876422324539352,0.7506671699006597
+China,16,DummyMean,{},3297.1504260651627,4646.608471629879,3000.0200501253134,1.0194622487694196,2.2796504940161957
+China,16,DummyMedian,{},2614.86,4818.732883238083,1350.0,0.8085014971544766,1.0258358662613982
+China,17,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2377.7736560248177,4845.514459447204,1264.3765742640046,0.7259427596028316,0.9142274578915435
+China,17,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",1770.0618733370436,3065.4713988694443,915.1021062294711,0.5404061895219515,0.6616790355961468
+China,17,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",1888.7582383348097,3413.1578356235614,896.4845325681911,0.5766446121922395,0.6482173048215409
+China,17,DummyMean,{},3252.1318045112794,4879.502114435377,3131.0,0.9928874141477213,2.2639190166305134
+China,17,DummyMedian,{},2461.23,4907.402269021768,1453.0,0.7514222784368457,1.0506146059291395
+China,18,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3143.5331748392146,7104.260694967379,1105.804955345413,1.017122532658787,0.8659396674592114
+China,18,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 5, ""regressor__model__n_estimators"": 600}",2535.376010350067,5732.322927879929,786.9521757506251,0.8203470189308536,0.6162507249417581
+China,18,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2422.8077207966107,5601.439465601078,872.8408573656732,0.7839243895518793,0.6835088937867448
+China,18,DummyMean,{},3783.8923057644106,6793.554495953051,2477.344611528822,1.224317324261751,1.9399722878064385
+China,18,DummyMedian,{},3191.45,7181.83800917286,1136.5,1.0326265149149942,0.8899765074393109
+China,19,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2619.7885159740135,5570.885842075696,1099.7693860440681,0.8148159604771144,0.7992510072994681
+China,19,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2062.9405821736555,4432.399425398071,690.1257013798935,0.6416231316465997,0.5015448411191087
+China,19,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2102.8501352065846,4535.416571790057,653.6345428194396,0.6540359430580767,0.4750251037931974
+China,19,DummyMean,{},3441.03694235589,5438.011656452357,2748.408521303258,1.0702435727643136,1.997389913737833
+China,19,DummyMedian,{},2693.48,5652.368735317964,1240.5,0.8377357484559902,0.9015261627906976
+China,20,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",4200.624723202503,8555.148666105548,1297.1782542197693,1.5379805376282387,1.0606527017332537
+China,20,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",3504.83616100048,7492.053864740984,1239.9221266137279,1.283230509362155,1.0138365712295403
+China,20,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",3533.476094570932,7577.007444587201,1293.1575896070726,1.2937164878374567,1.0573651591227087
+China,20,DummyMean,{},4781.252727272727,9540.20460849533,2633.42,1.7505666715262282,2.1532461161079315
+China,20,DummyMedian,{},4643.646464646465,10050.52449458045,1434.0,1.7001847003384754,1.1725265739983646
+China,21,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2878.5011498118506,5211.264816876489,1270.4528311691008,0.939592329256741,1.0516993635505802
+China,21,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2800.441334853086,6268.830124508037,1096.9814967006541,0.9141122618392762,0.9080972654806739
+China,21,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",3034.5757046447848,7048.048529490498,1119.4287522515037,0.9905377508080824,0.9266794306717746
+China,21,DummyMean,{},3633.1043358396,6909.005131289005,2596.2268170426064,1.1859077998170757,2.149194384969045
+China,21,DummyMedian,{},3313.05,7334.615137142508,1393.5,1.0814365548012783,1.1535596026490067
+China,22,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3681.2938044420775,7430.820814881262,1240.5892525975778,1.2455470146551586,1.0061551115957645
+China,22,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2438.5812838772804,4700.158857036748,896.6250877971223,0.82508156085293,0.7271898522279986
+China,22,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2641.9458827648523,5148.760346607968,996.1290573165702,0.8938889374131251,0.8078905574343636
+China,22,DummyMean,{},3993.771804511277,6997.918956676376,2530.1716791979948,1.3512723549314403,2.0520451575004013
+China,22,DummyMedian,{},3728.67,7511.333874219678,1383.0,1.2615765091963673,1.121654501216545
+China,23,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2577.0263572839244,5755.070475506834,1024.6523667891352,0.7990878762505533,0.7140434611770977
+China,23,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2248.7912825570365,5180.06631061255,883.7628727179277,0.6973082929594878,0.6158626290717266
+China,23,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2298.0513506328107,5228.834584545982,934.7295117564381,0.7125829226004958,0.6513794507013506
+China,23,DummyMean,{},3442.108872180451,5549.577728913646,2823.1090225563908,1.0673338519489661,1.9673233606664744
+China,23,DummyMedian,{},2665.3,5720.968217006628,1259.5,0.8264598887592782,0.8777003484320558
+China,24,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3466.928989941776,8032.862150833868,1258.053308047835,1.1541504111531358,0.9346607043446025
+China,24,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2458.4409351426366,5625.345953042458,960.4497641219327,0.8184219014356638,0.7135585171782561
+China,24,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2391.950585060054,5204.860975238044,1058.5451124042038,0.7962870768955115,0.786437676377566
+China,24,DummyMean,{},4099.334711779449,7773.262471097255,2935.7694235588974,1.3646800545326514,2.1811065553929403
+China,24,DummyMedian,{},3536.61,8099.223349803362,1379.5,1.177347415372601,1.024888558692422
+China,25,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2300.3168776161556,4636.365909107762,1234.9215940966924,0.6984833241453391,0.9083645414466291
+China,25,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",1677.5962342817904,3400.433253383218,617.4632384943752,0.5093963382597835,0.454184066564454
+China,25,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",1667.3435666076086,3218.2561809451086,653.5700250814814,0.5062831509123771,0.48074293864029527
+China,25,DummyMean,{},3346.432904040404,4736.13108513873,3118.0975,1.0161328648189483,2.2935619713129825
+China,25,DummyMedian,{},2373.242424242424,4727.977288695901,1292.0,0.7206269160644746,0.9503493931592497
+China,26,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.9}",3014.9114388671123,6301.2874634579875,1235.4280566444063,0.9620764959659699,0.9323985333165331
+China,26,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2225.3244588368725,4264.144678479472,710.314183803479,0.7101145095491185,0.5360861764554559
+China,26,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2156.2269845733726,4064.564938183749,848.6953007380073,0.6880650871141741,0.6405247552739678
+China,26,DummyMean,{},3604.2904260651626,5968.670950621502,2885.5,1.150150899575165,2.177735849056604
+China,26,DummyMedian,{},3015.18,6279.586594673251,1288.0,0.9621621954496596,0.9720754716981133
+China,27,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2521.5517083174973,4218.303965206819,1180.138073362689,0.7773913684206845,0.964165092616576
+China,27,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2137.350769452768,3304.5913034391447,1084.2011054933423,0.6589426796123737,0.8857852169063254
+China,27,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2097.2601555928063,3404.4136931223866,994.3981277506706,0.6465827914266119,0.8124167710381296
+China,27,DummyMean,{},2850.007619047619,3926.244993579646,2511.441102756892,0.8786539318914633,2.0518309663046503
+China,27,DummyMedian,{},2590.68,4315.380750293072,1312.5,0.7987035378639606,1.0723039215686274
+China,28,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3596.4973428009876,7297.35615761516,1153.011808675754,1.2096159158021038,0.9029066630193846
+China,28,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2880.73748636549,5818.981372422194,891.2323740120148,0.9688832162577418,0.6979110211527132
+China,28,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",3083.118012257056,6073.131425288947,940.6568915606961,1.036950194162467,0.7366146370874675
+China,28,DummyMean,{},4129.76373433584,6903.76449038367,2770.7907268170425,1.3889702856458876,2.1697656435528914
+China,28,DummyMedian,{},3655.57,7370.978874613602,1375.0,1.2294839205650372,1.076742364917776
+China,29,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3534.024609240141,8189.892405923605,1198.8199837035863,1.2168865595520169,0.8354146227899556
+China,29,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2726.4805751724493,7248.913874630872,723.4235430512692,0.9388212968670803,0.5041279045653444
+China,29,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2765.1399341706747,7621.6162036401065,742.8849704081664,0.9521330475104782,0.5176898748488964
+China,29,DummyMean,{},4668.2992481203,9162.215257093998,3041.7293233082705,1.6074564382351086,2.119672002305415
+China,29,DummyMedian,{},3956.8,9452.294013624418,1492.5,1.362462707884397,1.0400696864111498
+China,30,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2341.435837002317,5256.708593239961,1121.107555552412,0.7128542846646324,0.8461189098508769
+China,30,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",1758.1572004597792,3582.728989303894,903.6456099000986,0.5352740714288847,0.6819966867170556
+China,30,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",1726.0024560492704,3269.935015674594,791.1565116613797,0.5254845025826705,0.5970992540840602
+China,30,DummyMean,{},3223.2688131313143,5243.140174254932,2505.3375,0.9813298949965069,1.8908207547169813
+China,30,DummyMedian,{},2404.3838383838383,5360.93841664598,1219.0,0.73201891509642,0.92
+China,31,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2830.741703032645,5564.4839368710245,1192.458336344347,0.894866771758932,0.9448956706373589
+China,31,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2284.6725118559434,4461.181353400843,933.1472708579021,0.7222409282417389,0.7394193905371649
+China,31,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",2416.6305804950553,4723.925348578677,1022.421148944347,0.7639561051383517,0.8101593890208771
+China,31,DummyMean,{},3468.141203007518,5302.513929866928,2735.7330827067667,1.0963643623911685,2.1677758183096407
+China,31,DummyMedian,{},2899.54,5655.5957847073905,1288.5,0.9166155981685379,1.0209984152139462
+China,32,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2921.0163765686725,6092.721148801726,1106.0578863234018,0.9497908757424232,0.8627596617187222
+China,32,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",2736.352643241684,6473.698976921106,883.3575547534687,0.8897460466885925,0.6890464545658882
+China,32,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 0.7}",2925.639435389112,7138.459295924369,765.0093677523884,0.951294098771536,0.5967311760939067
+China,32,DummyMean,{},3664.416766917292,7452.932583382114,2605.9135338345864,1.1915132137068214,2.032693864145543
+China,32,DummyMedian,{},3250.53,7826.38672249206,1256.5,1.056934757398967,0.9801092043681747
+China,33,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2998.1624207637565,6399.594727377233,1208.3102738249058,0.9605235820861668,0.9202667736671027
+China,33,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2386.331845972102,5195.175719086346,1041.8134945533177,0.7645109540648296,0.7934603918913311
+China,33,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2310.699841589851,5116.827819779325,1056.4595910412327,0.7402806711200215,0.8046150731464072
+China,33,DummyMean,{},3600.9787969924814,6165.209922428921,2944.127819548872,1.153648324436822,2.2422907993517684
+China,33,DummyMedian,{},3064.54,6467.85542973867,1324.5,0.9817890177865993,1.0087585681645088
+China,34,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3271.4144177427247,7524.022516862188,1257.8330401298772,1.0700361948742867,0.8933473296376969
+China,34,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2073.8141012881483,4698.7182355900795,759.0877784216156,0.6783170416391809,0.5391248426289883
+China,34,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2130.99678659683,4564.9135808448245,756.0476385035208,0.6970207383241809,0.5369656523462506
+China,34,DummyMean,{},4128.127293233083,7302.380504088253,2992.4436090225563,1.3502555949043336,2.1253150632262474
+China,34,DummyMedian,{},3334.29,7558.005191186362,1374.5,1.0906019625202892,0.9762073863636364
+China,35,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2955.5426538013435,6123.702318344531,1263.6548969403752,0.9448998058759559,0.9501164638649437
+China,35,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2029.404624810781,4212.157104424058,769.3816394285113,0.6488094609499634,0.5784824356605348
+China,35,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2042.1451529970552,4173.033390146059,816.7476111473115,0.6528826630722485,0.6140959482310613
+China,35,DummyMean,{},3599.52297979798,5880.58767108337,2773.995,1.1507831093158583,2.0857105263157893
+China,35,DummyMedian,{},3040.2323232323233,6201.805477586199,1408.0,0.9719754605284467,1.0586466165413533
+China,36,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3037.6856521154086,6298.385038630318,1260.8266954869289,0.9761947556035255,0.9919958265042713
+China,36,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",2256.496042635098,4263.9331141296225,1006.0559116420638,0.7251506097500583,0.7915467440142123
+China,36,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",1990.5506529255551,3865.6849869043817,983.2428449501242,0.6396860408501792,0.7735978323761795
+China,36,DummyMean,{},3620.284937343358,6036.795946089498,2611.8521303258144,1.1634196471790674,2.05495840308876
+China,36,DummyMedian,{},3102.93,6406.261273941299,1368.5,0.997161767181355,1.0767112509834775
+China,37,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3158.575115085469,6893.562084385323,1241.9209020263559,1.0247384194286786,0.9833102945576848
+China,37,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2913.7757948989206,5562.968774448995,979.9551728034601,0.9453180291244923,0.7758948319900714
+China,37,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",3023.3167823673425,5817.023771614569,1106.8147235603442,0.9808564774029369,0.8763378650517373
+China,37,DummyMean,{},3620.6329072681706,6706.9952548314095,2889.941102756892,1.1746441061367798,2.2881560591899386
+China,37,DummyMedian,{},3220.21,7067.831440406598,1381.0,1.0447346621165072,1.093428345209818
+China,38,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2603.1650934862596,5291.174075054772,1221.926644260895,0.808705139709268,0.9327684307335077
+China,38,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2055.6182751226543,4136.491527312402,861.416707083004,0.6386030100555993,0.6575700054068733
+China,38,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2229.2385548981347,4296.575585265874,852.7531588248153,0.6925402777930645,0.6509566097899353
+China,38,DummyMean,{},3369.540275689223,5155.194242518187,2779.7418546365916,1.0467889824682155,2.1219403470508333
+China,38,DummyMedian,{},2675.15,5398.6287268157275,1262.5,0.8310681331378523,0.9637404580152672
+China,39,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2909.4613663922228,6577.80974221843,1126.6754170652202,0.9248976290199705,0.8420593550562184
+China,39,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2091.479862918528,4693.721659917216,870.7104343809449,0.6648669711517948,0.650755182646446
+China,39,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2004.298308160495,4449.860700986652,840.2236206508076,0.6371525583668721,0.627969821114206
+China,39,DummyMean,{},3660.1089473684215,6345.089966053516,2844.5,1.1635232990130975,2.12593423019432
+China,39,DummyMedian,{},2967.47,6635.386729498138,1146.0,0.9433381721068342,0.8565022421524664
+China,40,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.1}",139108.50528033858,1342120.7405555954,930.6049547994971,46.51470516473544,0.689081788078117
+China,40,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 5, ""regressor__model__n_estimators"": 600}",2399.0219167581154,6069.987687122208,616.5537554742355,0.8021781049035122,0.4565373976114294
+China,40,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2403.919606037517,6021.055387342057,657.4260272012725,0.8038157802732586,0.486801945354515
+China,40,DummyMean,{},4206.789696969697,7855.527739176645,3015.06,1.406654338282571,2.232550907071455
+China,40,DummyMedian,{},3595.2929292929293,8192.291631882876,1334.0,1.2021837935063722,0.987782302850796
+China,41,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3264.7670875416093,7055.080927340399,1249.8346847211678,1.0688801228270681,0.9030597432956415
+China,41,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 5, ""regressor__model__n_estimators"": 600}",2279.609939900055,5096.692076611427,708.8306807477777,0.7463410672866633,0.512160896494059
+China,41,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2238.066638116214,4935.363260543288,676.9423755449499,0.7327398490917105,0.4891202135440389
+China,41,DummyMean,{},4045.612406015038,6800.738189324246,2935.5,1.3245277747235165,2.121026011560694
+China,41,DummyMedian,{},3343.21,7101.3502525928125,1404.5,1.094562221321443,1.0148121387283238
+China,42,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3006.910195038791,7206.453576263329,1182.0074461788374,0.982022219328699,0.9270646636696764
+China,42,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2636.136736172213,6335.067998504857,824.3094342372631,0.8609318803005866,0.6465172033233436
+China,42,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2900.1660610141007,7490.6052550393615,937.4126753631463,0.9471608152308311,0.735225627735801
+China,42,DummyMean,{},3765.454511278195,8243.27035731342,2240.592731829574,1.2297540518661787,1.757327632807509
+China,42,DummyMedian,{},3305.79,8598.343306125897,1222.0,1.079632919463609,0.9584313725490196
+China,43,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.9}",3937.462839121673,6990.243833719812,1337.8858043916337,1.3539931007996568,1.0894835540648482
+China,43,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",2838.2455420201977,4995.491022068303,1205.6526267801714,0.9760002923933571,0.9818018133389018
+China,43,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 3, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2897.1979955094016,5057.367574097354,1300.7883832664488,0.9962725383956584,1.0592739277414078
+China,43,DummyMean,{},4097.078897243107,6332.097398451885,2789.908521303258,1.4088809944264749,2.271912476631318
+China,43,DummyMedian,{},3923.5,6955.638634949346,1414.5,1.349191636351414,1.151872964169381
+China,44,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2746.700136676739,6540.341349907102,1198.607117258321,0.8637455850805821,0.9291528040762179
+China,44,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2173.678016039105,5190.0176301257525,797.668371322318,0.6835492395657388,0.6183475746684636
+China,44,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2357.5672442717114,5374.637593332196,1009.8995320800973,0.7413762687739448,0.7828678543256569
+China,44,DummyMean,{},3441.7542105263155,6390.545118950262,2763.5,1.0823169098725975,2.1422480620155038
+China,44,DummyMedian,{},2830.71,6617.793831028585,1342.0,0.89016388519997,1.0403100775193799
+China,45,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2125.657911882181,3754.7287059052805,1182.6397740816599,0.6368406636618632,0.8287594772821723
+China,45,RandomForest,"{""regressor__model__max_depth"": null, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 300}",1800.3682113852328,3144.174334820139,752.6798654820436,0.539384855938119,0.5274561075557419
+China,45,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",1833.9554350706464,3184.498391436745,866.9856365094222,0.549447486290262,0.607558259642202
+China,45,DummyMean,{},3175.8169444444443,3933.6267851548346,3153.2275,0.9514651248740964,2.2096899088997897
+China,45,DummyMedian,{},2204.686868686869,3777.992893459476,1340.0,0.6605174994399391,0.9390329362298528
+China,46,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2718.908458117687,5954.403934497016,1197.5352378833693,0.8872829421686318,0.9113662388762324
+China,46,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 5, ""regressor__model__n_estimators"": 600}",2716.2808121438466,6212.755041272878,1025.5225958184046,0.8864254416361347,0.7804585965132456
+China,46,GradientBoosting,"{""regressor__model__learning_rate"": 0.05, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2608.2762118644287,5967.90865042169,1136.1446328010816,0.8511794445825918,0.8646458392702295
+China,46,DummyMean,{},3755.859774436091,7760.987650594746,2726.0187969924814,1.2256794821777783,2.0745957359151306
+China,46,DummyMedian,{},3292.27,8097.197765276577,1273.0,1.0743925575323945,0.9687975646879756
+China,47,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3057.392692595282,5775.91461516434,1253.862180728937,0.9843497184653512,0.9513370111752176
+China,47,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 300}",2196.303081580471,4135.969311993596,789.5668794700442,0.7071156823440811,0.5990644002048894
+China,47,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 4, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2157.122927846148,4009.155680971605,904.975264187095,0.6945013481137364,0.6866276663028035
+China,47,DummyMean,{},3673.8027067669177,5510.989445225253,3033.7067669172934,1.1828073864576232,2.3017502025169145
+China,47,DummyMedian,{},3129.14,5824.54291940578,1471.0,1.0074492836653097,1.1160849772382397
+China,48,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3364.979515506604,7601.960683419556,1232.862554363926,1.1091973529550894,0.9616712592542324
+China,48,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2411.3058572714635,5244.366775899891,698.6137803102991,0.7948381444003951,0.5449405462638839
+China,48,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 0.7}",2385.541137987286,4954.360619484344,1030.7257715691583,0.7863453264507031,0.8039982617544136
+China,48,DummyMean,{},3857.694360902255,7290.490418331806,2433.2117794486217,1.2716108237521777,1.8979811072142134
+China,48,DummyMedian,{},3417.01,7696.886452975645,1272.0,1.1263481484969626,0.9921996879875195
+China,49,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",2094.124995220231,4342.2824397555705,924.6452034765531,0.6275801908924504,0.6311571354788759
+China,49,RandomForest,"{""regressor__model__max_depth"": 16, ""regressor__model__max_features"": 0.6, ""regressor__model__min_samples_leaf"": 3, ""regressor__model__n_estimators"": 600}",2223.096212685738,4647.360440779381,737.619228814704,0.6662310744172528,0.5034943541397296
+China,49,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 400, ""regressor__model__subsample"": 1.0}",2625.824689960658,6226.863950485175,782.490018873607,0.7869232084698526,0.5341228797772062
+China,49,DummyMean,{},3271.325488721804,4539.777846114122,2939.0689223057643,0.9803708371607781,2.006190390652399
+China,49,DummyMedian,{},2223.63,4502.673729019237,1136.0,0.6663910430654211,0.7754266211604095
+China,50,ElasticNet,"{""regressor__model__alpha"": 1.0, ""regressor__model__l1_ratio"": 0.5}",3473.957866430088,7160.879853596313,1280.913761348066,1.1564873406311282,1.01619497131937
+China,50,RandomForest,"{""regressor__model__max_depth"": 8, ""regressor__model__max_features"": ""sqrt"", ""regressor__model__min_samples_leaf"": 1, ""regressor__model__n_estimators"": 600}",2500.2242486026407,5747.54035615281,873.4713500864773,0.8323295225279378,0.6929562475894306
+China,50,GradientBoosting,"{""regressor__model__learning_rate"": 0.03, ""regressor__model__max_depth"": 2, ""regressor__model__n_estimators"": 200, ""regressor__model__subsample"": 1.0}",2477.576716943135,5579.970744718154,998.292440429047,0.8247901151235308,0.7919813093447418
+China,50,DummyMean,{},3944.1221969696967,6778.5756116186,2921.0025,1.3130059620973478,2.3173363744545816
+China,50,DummyMedian,{},3538.6969696969695,7217.484597080267,1372.0,1.1780391142134883,1.0884569615232051
