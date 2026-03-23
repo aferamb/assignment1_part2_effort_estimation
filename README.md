@@ -1,7 +1,8 @@
 # Assignment 1 Part 2 - Effort Estimation Package
 
 This folder contains a complete, reproducible workflow for the assignment:
-- `effort_estimation.ipynb`: full analysis notebook
+- `effort_estimation_NO_RUN_PROFILE.ipynb`: fixed-rigor notebook (`5x10` outer repeated CV, `3` inner folds)
+- `effort_estimation_RUN_PROFILE.ipynb`: same workflow with `RUN_PROFILE` options (`fast`, `balanced`, `full`)
 - `technical_report_draft.md`: 5-8 page report draft structure
 - `requirements.txt`: Python dependencies
 - `data/raw/`: local snapshots of source datasets
@@ -17,6 +18,7 @@ The notebook tries candidate datasets in order and keeps the first two that load
 
 If one dataset fails parsing/validation, it is skipped automatically and the notebook continues.
 A load diagnostic file is generated as `dataset_load_report.csv`.
+When both primary datasets load correctly, the analysis is performed on `NASA93` and `China`; `COC81 DEM` remains a fallback only.
 
 ## Dataset Sources
 
@@ -40,7 +42,9 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open `effort_estimation.ipynb` and run all cells from top to bottom.
+Open either:
+- `effort_estimation_NO_RUN_PROFILE.ipynb` for the fixed full-rigor workflow
+- `effort_estimation_RUN_PROFILE.ipynb` if you want to control runtime with `RUN_PROFILE`
 
 ## Runtime Profiles
 
@@ -54,7 +58,7 @@ Change `RUN_PROFILE` before running training cells.
 ## Non-interactive Execution (Optional)
 
 ```bash
-jupyter nbconvert --to notebook --execute --inplace effort_estimation.ipynb
+jupyter nbconvert --to notebook --execute --inplace effort_estimation_RUN_PROFILE.ipynb
 ```
 
 ## Outputs Produced
@@ -66,11 +70,17 @@ After execution, the notebook creates:
 - `model_ranking.csv`
 - `stability_metrics.csv`
 - `summary_table.md`
+- `figures/eda_target_*.png`
+- `figures/boxplot_<dataset>_<metric>.png`
+- `figures/stability_coefvar_<dataset>.png`
 - `figures/*.png`
 
 ## Notes
 
 - Validation strategy: nested repeated cross-validation.
 - Metrics: MAE, RMSE, MdAE, MASE, MdASE.
-- Targets are modeled with `log1p` and back-transformed with `expm1` for reporting on original effort scale.
+- The China workflow removes leakage-prone columns: `ID`, `N_effort`, `PDR_AFP`, `PDR_UFP`, `NPDR_AFP`, and `NPDU_UFP`.
+- The three main models are trained through `TransformedTargetRegressor(log1p/expm1)`, but hyperparameter tuning and final metrics are computed on the original effort scale.
+- Explicit baselines are included with `DummyRegressor(strategy="mean")` and `DummyRegressor(strategy="median")`.
+- `MASE` and `MdASE` are reported as a fold-wise adaptation scaled by the training-fold median baseline.
 - The notebook prints estimated fit counts and fold/model progress during training.

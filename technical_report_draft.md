@@ -45,18 +45,20 @@ Two software effort estimation datasets were selected from a fallback candidate 
 - Relevant characteristics:
   - Larger sample size and mostly numeric feature set
   - Includes project-size and functional-point style metrics
+  - Contains productivity ratios derived from `Effort`/`N_effort` that must be removed before modeling to avoid target leakage
   - Supports lower-variance estimates in repeated validation
 
 ### 2.3 Optional Fallback Candidate
 
 - COC81 DEM (https://zenodo.org/records/268424) is kept as an additional candidate dataset.
-- If one primary candidate fails parsing or validation, the notebook can skip it and continue with the next available candidate.
+- It is only used if one primary candidate fails parsing or validation.
 
 ### 2.4 Limitations and Data Quality Notes
 
 - NASA93 is relatively small, while China is moderate-sized for this domain.
 - Dataset age and historical context may limit direct transferability to current software processes.
 - Feature distributions may be skewed and differ substantially across datasets.
+- China contains leakage-prone effort derivatives (`PDR_AFP`, `PDR_UFP`, `NPDR_AFP`, `NPDU_UFP`, `N_effort`) that must be excluded from predictors.
 - Small samples increase variance in estimated performance and justify repeated resampling.
 - Fallback policy: if a candidate dataset fails loading/validation, the workflow skips it and tries the next candidate.
 
@@ -71,21 +73,23 @@ A structured preprocessing pipeline was applied to avoid leakage and preserve re
 - Numeric features: median imputation.
 - Ordinal categorical features (COCOMO rating scale): ordinal encoding with order `vl < l < n < h < vh < xh`.
 - Nominal categorical features: one-hot encoding with unknown-category handling.
-- ID-like or leakage-prone columns were removed from predictors (`recordnumber`, `ID`, and normalized-effort derivatives).
+- ID-like or leakage-prone columns were removed from predictors (`recordnumber`, `ID`, `N_effort`, `PDR_AFP`, `PDR_UFP`, `NPDR_AFP`, `NPDU_UFP`).
 
 ### 3.2 Outlier and Skewness Handling
 
-Instead of deleting observations (risky with small datasets), the target was transformed using `log1p(y)` during training. Predictions were back-transformed with `expm1` before metric computation. This approach reduces the influence of extreme target values while preserving all projects.
+An exploratory audit was run before modeling to summarize missing values, target skewness, outliers, excluded columns, and strong numeric correlations. Instead of deleting observations (risky with small datasets), the target was transformed using `log1p(y)` inside `TransformedTargetRegressor`, while scoring and final metrics remained on the original effort scale. This keeps the robustness benefits of the log transform without selecting hyperparameters under a different scale than the one used for evaluation.
 
 ### 3.3 Models
 
-Three estimators were compared:
+Three tuned estimators were compared, together with two explicit baselines:
 
 1. **ElasticNet** (regression-based, interpretable baseline with regularization).
 2. **RandomForestRegressor** (non-linear ensemble, robust to interactions and heterogeneity).
 3. **GradientBoostingRegressor** (boosted trees, often strong in tabular settings).
+4. **DummyRegressor (mean)**.
+5. **DummyRegressor (median)**.
 
-Hyperparameters were tuned inside inner cross-validation loops using grid search.
+Hyperparameters for the three main estimators were tuned inside inner cross-validation loops using grid search. The two dummy models were fit directly on each outer training fold as explicit naive baselines.
 
 ---
 
@@ -94,7 +98,7 @@ Hyperparameters were tuned inside inner cross-validation loops using grid search
 To reduce optimistic bias and improve comparison fairness, a nested design was used:
 
 - **Outer loop:** Repeated K-Fold cross-validation (`5` folds, `10` repeats).
-- **Inner loop:** K-Fold (`3` folds) for model selection and hyperparameter tuning.
+- **Inner loop:** K-Fold (`3` folds) for model selection and hyperparameter tuning of the three tuned estimators.
 
 Why this design:
 - Repeated splitting reduces dependence on one random partition.
@@ -115,7 +119,7 @@ Model performance was evaluated using:
 - **MASE** (Mean Absolute Scaled Error)
 - **MdASE** (Median Absolute Scaled Error)
 
-For scaled errors (MASE, MdASE), a naive baseline predictor was defined as the **training-fold median effort**. This provides a robust, comparable scale across folds and datasets.
+For scaled errors (MASE, MdASE), a naive baseline predictor was defined as the **training-fold median effort**. This is a fold-wise adaptation used to scale errors robustly across datasets; it should be described explicitly instead of implying the canonical time-series MASE definition. In addition, `DummyRegressor(strategy="mean")` and `DummyRegressor(strategy="median")` provide visible baseline models in the comparison tables.
 
 ---
 
@@ -129,7 +133,7 @@ Insert the summary table from `summary_table.md`.
 
 ### 6.2 Fold-Level Stability
 
-Use boxplots and coefficient-of-variation charts from `figures/` to discuss dispersion and ranking robustness.
+Use boxplots and coefficient-of-variation charts from `figures/`, keeping NASA93 and China separated in the visual analysis.
 
 ### 6.3 Best Model per Dataset
 
@@ -161,6 +165,7 @@ Recommended discussion points:
 5. **Threats to validity**
 - Small dataset size and historical context.
 - Potential mismatch between legacy project environments and current software practices.
+- Leakage risk in legacy datasets if derived effort ratios are not audited and removed before modeling.
 - Hyperparameter search bounds may influence observed rankings.
 
 ---
@@ -183,7 +188,7 @@ Final conclusions should include:
 - Python version: [fill from environment]
 - Key package versions: [fill from `pip freeze`]
 - Random seed: 42
-- Notebook: `effort_estimation.ipynb`
+- Notebook: `effort_estimation_NO_RUN_PROFILE.ipynb` or `effort_estimation_RUN_PROFILE.ipynb`
 
 ### B. Artifact List
 
@@ -201,5 +206,5 @@ cd assignment1_part2_effort_estimation
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter nbconvert --to notebook --execute --inplace effort_estimation.ipynb
+jupyter nbconvert --to notebook --execute --inplace effort_estimation_RUN_PROFILE.ipynb
 ```
